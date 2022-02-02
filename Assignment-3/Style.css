@@ -1,0 +1,28 @@
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+header {
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
+
+#divbold{
+  color: #FF0000;
+}
+
+.spanstyle {
+  color: #FF0000;
+}
