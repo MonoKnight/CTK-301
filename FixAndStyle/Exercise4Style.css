@@ -1,0 +1,55 @@
+header {
+  background-color: #899de0;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #0000ff;
+}
+
+h3 {
+  background-color: #ffff00;
+}
+
+h4 {
+  color: #ffff00;
+  background-color: #045700;
+}
+
+h5 {
+  color: #ff0000;
+}
+
+.spanstyle {
+  color: #ffaa00;
+}
+
+.span2 {
+  color: #0000ff;
+}
+
+#Inferno {
+  color: #ff0000;
+}
+
+#Father{
+  background-color: #94ff9f;
+}
+
+#Doctor{
+  background-color: #ffff00;
+}
+
+
+a {
+ color: #00ff00;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #ff0000;
+ text-decoration: underline;
+}
