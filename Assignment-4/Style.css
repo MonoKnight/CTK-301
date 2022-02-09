@@ -1,0 +1,52 @@
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(background.jpg);
+}
+
+header {
+  color: #FFFFFF;
+  background-color: #ff8400;
+  font-style: italic;
+}
+
+#divbold{
+  color: #FF0000;
+}
+
+.spanstyle {
+  color: #FF0000;
+}
+
+.imgborder {
+border: 20px solid #000000;
+padding: 10px 10px 10px 10px;
+background-color: #ffffff;
+}
+
+.TextCenter{
+  text-align: center;
+}
+
+.TextJustify{
+  text-align: justify;
+}
