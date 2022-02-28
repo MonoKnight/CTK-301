@@ -1,0 +1,103 @@
+body {
+  background-image: url(RepeatingImage.jpg);
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+header{
+  grid-column: span 3;
+  background-color: #7893ff;
+  border-bottom: 3px solid #000000;
+  padding-left: 20px;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: Helvetica;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+nav li {
+  display: inline-block;
+  width: 210px;
+  margin: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 15px 0px;
+  background-color: #5bb500;
+  border: 3px solid #000000;
+  text-align: center;
+}
+
+main {
+  grid-column: span 2;
+  color: black;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+main img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+main a {
+  text-decoration: none;
+  color: #5bb500;
+  font-weight: bold;
+}
+
+aside {
+  grid-column: span 1;
+  background-color: #7893ff;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+h2 {
+  border-bottom: 3px solid white;
+}
+
+.MainH2 {
+    border-bottom: 3px solid black;
+}
+
+.Italicize {
+  font-style: italic;
+}
+
+footer {
+  grid-column: span 3;
+  border-top: 3px solid black;
+  background-color: #7893ff;
+  color: white;
+  padding-left: 10px;
+}
