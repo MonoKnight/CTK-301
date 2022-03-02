@@ -1,0 +1,135 @@
+body {
+  background-color: gray;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 961px;
+  border: 5px solid #003385;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#gradiant {
+  background-image: linear-gradient(to bottom, #0091ff, #0078f7, #005eec, #0042dd, #001ccb);
+  grid-column: span 3;
+}
+
+header{
+  grid-column: span 3;
+}
+
+header a {
+  text-decoration: none;
+  color: #6bceff;
+  font-style: italic;
+  font-family: Helvetica;
+  padding-left: 30px;
+  display: inline-block;
+  font-weight: normal;
+}
+
+header a:hover {
+  color: #00aaff;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+nav li {
+  display: inline-block;
+  width: 237px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav p {
+  display: block;
+  margin: 10px;
+  background-image: linear-gradient(to bottom, #006bbc, #005cbe, #004bbe, #0037ba, #041cb3);
+}
+
+nav a {
+  display: block;
+  color: #6bceff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 12px 10px;
+  padding-left: 20px;
+  background-image: linear-gradient(to bottom, #006bbc, #005cbe, #004bbe, #0037ba, #041cb3);
+}
+
+.Links a:hover {
+  color: #00aaff;
+  background-image: linear-gradient(to bottom, #0067b5, #0055b0, #0043a9, #002e9f, #001492);
+}
+
+
+
+
+
+
+main {
+  grid-column: span 3;
+  padding: 5px 25px;
+}
+
+main a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover{
+  color: #940000;
+  text-decoration: underline;
+}
+
+.Intro {
+  text-align: justify;
+  font-weight: bold;
+}
+
+.MainImg {
+  border: 3px solid #0049a8;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.AboutImg {
+  border: 3px solid #0049a8;
+  margin-left: 15px;
+  margin-bottom: 40px;
+  float: right;
+}
+
+.GalImg {
+  border: 3px solid #0049a8;
+  margin: 0px 20px 0px 0px;
+}
+
+
+main h2 {
+  font-family: helvetica;
+  font-weight: normal;
+  color: #0049a8;
+  border-bottom: 3px solid #0049a8;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+footer {
+  grid-column: span 3;
+  background-color: #bf0000;
+  padding: 10px 25px;
+  border-top: 5px solid #003385;
+}
